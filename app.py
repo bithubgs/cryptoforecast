@@ -54,7 +54,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     ticker = st.selectbox(
         "📈 აირჩიეთ კრიპტოვალუტა",
-        ("BTC-USD", "ETH-USD", "XRP-USD", "DOGE-USD", "ADA-USD", "SOL-USD", "MATIC-USD")
+        ("BTC-USD", "ETH-USD", "XRP-USD", "SAND-USD", "ADA-USD", "SOL-USD", "SKL-USD", "RVN-USD")
     )
 with col2:
     interval = st.selectbox(
